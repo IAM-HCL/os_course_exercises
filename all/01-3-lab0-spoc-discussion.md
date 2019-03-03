@@ -51,6 +51,7 @@
     unsigned gd_off_31_16 : 16;        // high bits of offset in segment
  };
 ```
+该变量位数
 
 - 对于如下的代码段，
 
@@ -74,6 +75,8 @@ intr=8;
 SETGATE(intr, 1,2,3,0);
 ```
 请问执行上述指令后， intr的值是多少？
+
+0x20003
 
 ### 课堂实践练习
 
